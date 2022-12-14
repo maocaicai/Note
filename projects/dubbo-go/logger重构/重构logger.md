@@ -34,3 +34,22 @@ type结构和原来相同，init中设置zap结构为配置结构![image-2022121
 
 
 
+本质上使用的是url机制去做的
+
+![image-20221213214705359](C:\Users\congyutao1\AppData\Roaming\Typora\typora-user-images\image-20221213214705359.png)
+
+zap初始化的时候，设置了logger的名字和结构体
+
+![image-20221213214715850](C:\Users\congyutao1\AppData\Roaming\Typora\typora-user-images\image-20221213214715850.png)
+
+然后在配置时通过getlogger获取![image-20221213214755180](C:\Users\congyutao1\AppData\Roaming\Typora\typora-user-images\image-20221213214755180.png)
+
+![image-20221213214812902](C:\Users\congyutao1\AppData\Roaming\Typora\typora-user-images\image-20221213214812902.png)
+
+
+
+
+
+他的想法：在extension包中新建logger类，这个类利用url机制去做动态扩展功能。
+
+然后，dubbogo中的这个结构体不要用，因为最后没有用到，把Lumberjack中的属性拿出来放在一个结构体体中去使用，并实现lumberjack![image-20221213215115245](C:\Users\congyutao1\AppData\Roaming\Typora\typora-user-images\image-20221213215115245.png)
