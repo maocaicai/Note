@@ -53,3 +53,30 @@ zap初始化的时候，设置了logger的名字和结构体
 他的想法：在extension包中新建logger类，这个类利用url机制去做动态扩展功能。
 
 然后，dubbogo中的这个结构体不要用，因为最后没有用到，把Lumberjack中的属性拿出来放在一个结构体体中去使用，并实现lumberjack![image-20221213215115245](C:\Users\congyutao1\AppData\Roaming\Typora\typora-user-images\image-20221213215115245.png)
+
+
+
+
+
+
+
+## 原来的日志流程
+
+1. 设置ZapConfig、EncoderConfig、LoggerConfig结构体，并自带defalut配置
+2. Init方法中：初始化loger的config结构![image-20221215152956197](C:\Users\congyutao1\AppData\Roaming\Typora\typora-user-images\image-20221215152956197.png)
+
+把配置文件中的信息读入logger.Config结构中
+
+setEncoderConfig()，将配置设置到lc的zapconfig中![image-20221215153232236](C:\Users\congyutao1\AppData\Roaming\Typora\typora-user-images\image-20221215153232236.png)
+
+```
+setZapConfig(logConf.ZapConfig)
+```
+
+初始化logger：logger.InitLogger(logConf)
+
+
+
+
+
+## dubbo-go-boot的日志流程
