@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f1ea956-d82e-42d4-a81d-98aeaf3bf843" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/快速读取五个文件中的数字.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/剑指offer系列/leecode/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/剑指offer系列/leecode/src/剑指07__重做.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/剑指offer系列/leecode/src/剑指33__重做.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/剑指offer系列/leecode/src/剑指40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/剑指offer系列/leecode/src/剑指55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../算法/剑指offer系列/leecode/src/剑指56__IandII__重做.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projects/rpc/常见问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects/rpc/常见问题.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,9 +57,30 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="线程池" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.线程池.线程池" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.线程池.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.线程池" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -70,6 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672914102874</updated>
       <workItem from="1672914104080" duration="2068000" />
+      <workItem from="1672987447353" duration="8560000" />
     </task>
     <servers />
   </component>
